@@ -6,9 +6,9 @@ const closeModal = () => document.getElementById('modal')
 
 //crud criar ler editar e apagar.
 
-const createClient = () => {
+let createClient = () => {
 
-    const client = {
+    let client = {
         nome: document.getElementById('nome').value,
         email: document.getElementById('email').value,
         celular: document.getElementById('celular').value,
