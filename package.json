@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "author": "",
@@ -13,7 +12,9 @@
     "body-parser": "^1.19.1",
     "consolidate": "^0.16.0",
     "express": "^4.17.2",
-    "mongoose": "^6.1.5",
-    "mustache": "^4.2.0"
+    "mongoose": "^6.13.4",
+    "mustache": "^4.2.0",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.7.2"
   }
 }
